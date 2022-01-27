@@ -40,3 +40,6 @@ Chapter 13
 
 Chapter 14
 - Add foundation for rates of currency exchange
+
+Chapter 15
+- Generalized Money to Expression
