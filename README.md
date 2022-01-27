@@ -43,3 +43,6 @@ Chapter 14
 
 Chapter 15
 - Generalized Money to Expression
+
+Chapter 16
+- Write to for future devs
