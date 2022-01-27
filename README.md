@@ -33,3 +33,7 @@ Chapter 12
 - Add simple addition
 - Create Expression, and Bank classes
 - Made tests pass
+
+Chapter 13
+- Add many classes
+- Implement logic
