@@ -6,15 +6,13 @@ import static org.junit.Assert.*;
 public class MoneyTest {
 
 	@Test public void testDollarMultiplication() {
-		Dollar five = Money.dollar(5);
-		assertEquals(Money.dollar(10), five.times(2));
-		assertEquals(Money.dollar(15), five.times(3));
+		assertEquals(Money.dollar(10), Money.dollar(5).times(2));
+		assertEquals(Money.dollar(15), Money.dollar(5).times(3));
 	}
 
 	@Test public void testFrancMultiplication() {
-		Franc five = Money.franc(5);
-		assertEquals(Money.franc(10), five.times(2));
-		assertEquals(Money.franc(15), five.times(3));
+		assertEquals(Money.franc(10), Money.franc(5).times(2));
+		assertEquals(Money.franc(15), Money.franc(5).times(3));
 	}
 
 	@Test public void testDollarEquality() {

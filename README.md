@@ -25,3 +25,6 @@ Chapter 9
 Chapter 10
 - Consolidated times method by removing constants in favor of variables to then bubble up to parent
 - Write a toString to help debug
+
+Chapter 11
+- Gutted & Removed subclasses
