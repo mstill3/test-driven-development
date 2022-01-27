@@ -1,5 +1,9 @@
-## Test-Driven-Development by Example
-#### Following along Test-Driven-Development by Example book by Kent Beck
+# Test-Driven-Development by Example
+#### Following along `Test-Driven-Development by Example` book by Kent Beck
+
+```bash
+./gradlew test
+```
 
 
 ### Notes
