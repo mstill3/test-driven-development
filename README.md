@@ -37,3 +37,6 @@ Chapter 12
 Chapter 13
 - Add many classes
 - Implement logic
+
+Chapter 14
+- Add foundation for rates of currency exchange
