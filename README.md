@@ -28,3 +28,8 @@ Chapter 10
 
 Chapter 11
 - Gutted & Removed subclasses
+
+Chapter 12
+- Add simple addition
+- Create Expression, and Bank classes
+- Made tests pass

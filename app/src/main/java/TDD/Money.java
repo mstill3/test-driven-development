@@ -1,6 +1,6 @@
 package TDD;
 
-public class Money {
+public class Money implements Expression {
 
 	protected int amount = 10;
 	protected String currency;
@@ -26,12 +26,16 @@ public class Money {
 		return currency;
 	}
 
+	public Expression plus(Money addend) {
+		return new Money(amount + addend.amount, currency);
+	}
+
 	public boolean equals(Object object) {
 		Money money = (Money) object;
 		return amount == money.amount && currency().equals(money.currency());
 	}
 
-	public String tString() {
+	public String toString() {
 		return amount + " " + currency;
 	}
 
