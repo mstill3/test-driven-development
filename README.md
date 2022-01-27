@@ -21,3 +21,7 @@ Chapter 9
 - Make the currency methods logic match to bubble up to superclass
 - Add currency param to constructors so the hardcoded string can be set in the parent class Money only
 - TDD is a steering process steps in correct direction
+
+Chapter 10
+- Consolidated times method by removing constants in favor of variables to then bubble up to parent
+- Write a toString to help debug
